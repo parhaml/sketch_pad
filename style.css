@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	font-size: 0px;
+}
+
+#wrapper {
+	width: 602px;
+	margin: 0 auto;
+	position: relative;
+	border: 5px solid black;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.inner {
+	position: relative;
+	display: inline-block;
+	background-color: #EEE;
+	border-radius: 3px;
+	margin: 0 0.5px;
+
+}
+
+.outer {
+	margin: 1px;
+	margin-top: .5px;
+}
+
+#button {
+	height: inherit;
+	width: 100px;
+	background-color: #777;
+	border-radius: 4px;
+	font: 18px arial, sans-serif;
+	font: lighter; 
+	color: white;
+	text-align: center;
+	line-height: 36px;
+	position: relative;
+	margin: 30px auto;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
